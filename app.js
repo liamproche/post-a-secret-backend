@@ -1,4 +1,5 @@
 require("dotenv").config();
+require('./db-utils/connect')
 const express = require('express')
 const methodOverride = require('method-override')
 const cors = require('cors')
@@ -9,15 +10,6 @@ const secretController = require('./controllers/secretController')
 const PORT = process.env.PORT || 3001
 const mongoURI = process.env.MONGO_URI 
 
-
-mongoose.connect(mongoURI,
-  () => console.log('MongoDB connection established:', mongoURI)
-)
-
-
-const db = mongoose.connection
-db.on('error', err => console.log(err.message + ' is Mongod not running?'))
-db.on('disconnected', () => console.log('mongo disconnected'))
 
 //allows express to accept requests from the front-end app (cross-origin-request middle-ware)
 app.use(cors())
