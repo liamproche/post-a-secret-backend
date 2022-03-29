@@ -8,7 +8,6 @@ const morgan = require('morgan')
 const app = express()
 const secretController = require('./controllers/secretController')
 const PORT = process.env.PORT || 3001
-const mongoURI = process.env.MONGO_URI 
 
 
 //allows express to accept requests from the front-end app (cross-origin-request middle-ware)

@@ -20,6 +20,7 @@ router.get('/', async (req, res)=>{
     }
 })
 
+
 //CREATE ROUTE
 router.post('/', async (req, res)=>{
     try{

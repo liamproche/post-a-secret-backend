@@ -31,12 +31,12 @@ MODELS
 
 
 MVP CHECK
--Working fullstack application using the MERN stack
--Adhere to MVC file structure ()views in React
--At least one model with full CRUD
--At least 3 react components defined in their own file structure (outside of app.js)
+#-Working fullstack application using the MERN stack
+#-Adhere to MVC file structure ()views in React
+#-At least one model with full CRUD
+#-At least 3 react components defined in their own file structure (outside of #app.js)
 -Be deployed online and accessible to the public via heroku
--2 git repos (front-end & back-end) *at least one push per day
+#-2 git repos (front-end & back-end) *at least one push per day
 -A readme file with
     -Explination of the technologies used
     -Approach taken
@@ -48,9 +48,9 @@ MVP CHECK
 STRETCH GOALS
 -Background Art option
     -When submitting a secret user has option to upload background art that will appear behind text
--User can login to view all the secrets they have created (This is good practice, but horrible idea for app functioning (anonimity))
     -User model
     -Sessions
     -Modals for user login/create --> Bootstrap for react
     -User should be stored inside of secret model for accessibility 
 -Create public API (This may be super-easy)
+-User can login to view all the secrets they have created (This is good practice, but horrible idea for app functioning (anonimity))
