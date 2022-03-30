@@ -46,11 +46,16 @@ MVP CHECK
 
 
 STRETCH GOALS
--Background Art option
-    -When submitting a secret user has option to upload background art that will appear behind text
-    -User model
+#-Background Art option
+    #-When submitting a secret user has option to upload background art that will appear on the front of the secret card
+#-Create public API (This may be super-easy)
+-User can login to view all the secrets they have created (This is good practice, but horrible idea for app functioning (anonimity))
+-User model
     -Sessions
     -Modals for user login/create --> Bootstrap for react
-    -User should be stored inside of secret model for accessibility 
--Create public API (This may be super-easy)
--User can login to view all the secrets they have created (This is good practice, but horrible idea for app functioning (anonimity))
+    -User should be stored inside of secret model for accessibility
+
+Deployed:
+https://post-a-secret-backend.herokuapp.com/
+
+Editing
