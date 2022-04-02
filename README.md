@@ -57,5 +57,3 @@ STRETCH GOALS
 
 Deployed:
 https://post-a-secret-backend.herokuapp.com/
-
-Editing
